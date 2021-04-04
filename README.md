@@ -1,4 +1,4 @@
-# Fuzzy Color Image Enhancement - Fuzzy Logic Course - ITE 5th Year
+# Fuzzy Color Image Enhancement - Fuzzy Logic
 - This code is an implementation for a color image enhancement algorithm that mentioned in: 
     https://www.researchgate.net/publication/237202014_Color_Image_Enhancement_Using_the_Support_Fuzzification_in_the_Framework_of_the_Logarithmic_Model
 ## Abstract
@@ -6,6 +6,7 @@ We can enhance the colors in an image by tunning two things brightness and contr
 windows and every pixel has a membership degree to every window, the membership degrees are calculated depending on 
 the distance between the window and the pixel, then the means and variances are calculated with respect to the membership degrees,
 the final image is obtained by summing up the images of every fuzzy window in a weight way, the weights used are membership degrees.
+
 ## Algorithm Steps
   1. Convert the image to gray level space (if it is rgb convert every channel and work on one channel at a time then re-merge them).
   2. Calculate the pixels weights for every window.
